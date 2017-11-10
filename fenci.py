@@ -8,9 +8,9 @@ importlib.reload(sys)
 #sys.setdefaultencoding('utf8')
 
 
-word_dict = ['新华网', '东京', '记者', '吴谷丰', '日本共同社', '28', '报道']
+word_dict = ['新华网', '东京', '记者', '吴谷丰', '日本共同社', '28', '报道1']
 
-test_str = '  新华网东京电记者吴谷丰据日本共同社28日报道'
+test_str = '  新华网东京电记者吴谷丰据日本共同社28日报道，修改'
 
 # 获取分词
 def getSeg(text):
